@@ -71,7 +71,171 @@
       <div class="main">
         <div class="container">
           <div class="main-wrapper">
-            <div class="main__catalog catalog"></div>
+            <div class="main__catalog catalog">
+              <div class="catalog__dataset-block dataset-block">
+                <h1 class="dataset-block__title">Каталог датасетов</h1>
+                <div class="blocks">
+                  <div class="dataset-block__block1 block1 block">
+                    <button class="block1__button button1">develop</button>
+                    <button class="block1__button button2">mlp-demo</button>
+                  </div>
+                  <div class="dataset-block__block2 block2 block">
+                    <button class="block2__button button3">docker</button>
+                    <button class="block2__button button4">data</button>
+                  </div>
+                  <div class="dataset-block__block3 block3 block">
+                    <button class="block3__button button5">logs</button>
+                  </div>
+                </div>
+              </div>
+              <div class="catalog__dataset-filter dataset-filter">
+                <div class="dataset-filter__name filter-name">
+                  <a href="#" class="filter-name__setting">
+                    <img
+                      src="img/filter-icon.png"
+                      alt="icon"
+                      class="filter-name__filter-icon"
+                    />
+                  </a>
+                  <h3 class="filter-name__title">фильтр датасетов</h3>
+                  <a href="#" class="filter-name__search">
+                    <img
+                      src="img/search.png"
+                      alt="icon"
+                      class="filter-name__search-icon"
+                    />
+                  </a>
+                </div>
+                <!-- /.filter-name -->
+                <form
+                  action="#"
+                  class="dataset-filter__form-search form-search"
+                >
+                  <input
+                    type="text"
+                    class="form-search__input"
+                    placeholder="поле для поиска"
+                  />
+                  <button class="form-search__cross-button">
+                    <img src="img/cross.png" alt="cross" />
+                  </button>
+                </form>
+                <!-- /.form-search -->
+                <form
+                  action="#"
+                  class="dataset-filter__categories form-categories"
+                >
+                  <h2 class="form-categories__title">категория (namespace)</h2>
+                  <ul class="form-categories__checkbox-1-list checkbox-1-list">
+                    <li class="checkbox-1-list__item">
+                      <input
+                        class="form-categories__checkbox1"
+                        type="checkbox"
+                        name="checkbox-1"
+                        value="ГТМ"
+                        checked
+                      />ГТМ
+                    </li>
+                    <li class="checkbox-1-list__item">
+                      <input
+                        class="form-categories__checkbox1"
+                        type="checkbox"
+                        name="checkbox-1"
+                        value="Сейсмика"
+                        checked
+                      />Сейсмика
+                    </li>
+                    <li class="checkbox-1-list__item">
+                      <input
+                        class="form-categories__checkbox1"
+                        type="checkbox"
+                        name="checkbox-1"
+                        value="ГНО"
+                        checked
+                      />ГНО
+                    </li>
+                  </ul>
+                </form>
+                <!-- /.form-categories -->
+                <form action="#" class="dataset-filter__author form-author">
+                  <h2 class="form-author__title">автор</h2>
+                  <ul class="form-author__checkbox-2-list checkbox-2-list">
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Амиров И.П."
+                        checked
+                      />Амиров И.П.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Баранов К.В."
+                        checked
+                      />Баранов К.В.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Васильев А.Р."
+                      />Васильев А.Р.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Амиров И.П."
+                        checked
+                      />Амиров И.П.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Голубев А.Л."
+                        checked
+                      />Голубев А.Л.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Дементьев У.Н."
+                        checked
+                      />Дементьев У.Н.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Емелин К.Ф."
+                      />Емелин К.Ф.
+                    </li>
+                    <li class="checkbox-2-list__item">
+                      <input
+                        class="form-author__checkbox2"
+                        type="checkbox"
+                        name="checkbox-2"
+                        value="Зайкин Е.У."
+                        checked
+                      />Зайкин Е.У.
+                    </li>
+                  </ul>
+                </form>
+                <!-- /.form-author -->
+              </div>
+              <!-- /.dataset-filter -->
+            </div>
             <!-- /.catalog -->
             <div class="main__results results"></div>
             <!-- /.results -->
