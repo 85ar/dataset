@@ -52,7 +52,11 @@
   position: relative
   top: -28px
 .main
-  background: url(../img/main-image.jpg)
+  background: #5B5B5B url(../img/main-image.jpg)
+  background-repeat: no-repeat
+  background-position: center -30px
+  background-size: 70%
+  backdrop-filter: blur(8px)
   &-wrapper
     display: flex
 .dataset-block
@@ -190,6 +194,7 @@
     align-items: center
 .form-author
   width: 300px
+  margin-bottom: 21px
   &__title
     font-weight: 300
     font-size: 16px
@@ -213,8 +218,50 @@
     margin-bottom: 13px
     display: flex
     align-items: center
-
-
+.period1
+  width: 254px
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &__input1
+    background: rgba(70, 70, 70, 0.9)
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.25)
+    outline: none
+    font-weight: normal
+    font-size: 12px
+    line-height: 14px
+    text-transform: uppercase
+    color: #FFFFFF
+    width: 80px
+    height: 21px
+    text-align: center
+    border: 1px solid #FFFFFF
+  &__cal1
+    display: flex
+  &__link
+    margin-right: 9px
+  &__line
+    width: 10px
+    height: 1px
+    background-color: #FFFFFF
+.download-data
+  margin-bottom: 27px
+  &__title
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    text-transform: uppercase
+    color: #FFFFFF
+    margin-bottom: 11px
+.button-filter
+  border: 1px solid #FFF172
+  padding: 5px 28px
+  font-weight: normal
+  font-size: 16px
+  line-height: 19px
+  text-transform: uppercase
+  color: #FFF172
+  background: transparent
 
 
 
