@@ -59,6 +59,8 @@
   backdrop-filter: blur(8px)
   &-wrapper
     display: flex
+  &__catalog
+    margin-right: 40px
 .dataset-block
   padding: 29px 51px 16px 42px
   background: rgba(84, 84, 84, 0.6)
@@ -262,8 +264,112 @@
   text-transform: uppercase
   color: #FFF172
   background: transparent
-
-
+.results-buttons
+  display: flex
+  justify-content: space-between
+  &__group1
+    display: flex
+  &__group2
+    display: flex
+  &__total
+    font-weight: bold
+    font-size: 20px
+    line-height: 23px
+    text-transform: uppercase
+    color: #FFFFFF
+    border: 1px solid #FFF172
+    padding: 9px 29px 8px 35px
+    border-bottom: none
+  &__active
+    font-weight: normal
+    font-size: 12px
+    line-height: 14px
+    text-transform: uppercase
+    color: #FFF172
+    width: 200px
+  &__active-group
+    margin-left: 15px
+    display: flex
+    align-items: center
+    width: 190px
+    justify-content: space-between
+  &__open
+    border: 1.20101px solid #FFF172
+    width: 128px
+    display: flex
+    align-items: center
+    font-weight: normal
+    font-size: 16px
+    line-height: 19px
+    text-transform: uppercase
+    color: #FFF172
+    background: transparent
+    height: 30px
+    margin-right: 17px
+    padding: 6px 14px
+  &__open-icon
+    border: 1px solid #FFF172
+    height: 30px
+    margin-left: 17px
+  &__create
+    border: 1.20101px solid #68FF89
+    width: 128px
+    display: flex
+    align-items: center
+    font-weight: normal
+    font-size: 16px
+    line-height: 19px
+    text-transform: uppercase
+    color: #68FF89
+    background: transparent
+    height: 30px
+    margin-right: 17px
+    padding: 6px 14px
+  &__plus-icon
+    border: 1px solid #68FF89
+    height: 30px
+    margin-left: 20px
+.table-results
+  border: 1.6px solid #FFF172
+  max-width: 1370px
+  padding: 35px
+.table-main
+  max-width: 1293px
+  border: 1px solid #9D9D9D
+  table-layout: fixed
+  border-collapse: collapse
+  background-color: #464646
+  opacity: 0.9
+  // padding: 35px
+  &__bold
+    font-weight: bold
+    font-size: 12px
+    line-height: 14px
+    color: #FFFFFF
+  &__normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 14px
+    color: #FFFFFF
+    margin-bottom: 2px
+  &__gold
+    font-weight: normal
+    font-size: 10px
+    line-height: 12px
+    color: #FFF172
+  &__group
+    display: flex
+    align-items: center
+  &__title
+    margin-right: 7px
+td, th
+  border: 1px solid #9D9D9D
+  padding: 8px
+th
+  font-weight: bold
+  font-size: 14px
+  line-height: 16px
+  color: #FFFFFF
 
 
 
